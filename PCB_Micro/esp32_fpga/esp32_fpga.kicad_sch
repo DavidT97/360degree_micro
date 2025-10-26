@@ -19148,7 +19148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Samtec_HLE_THT:Samtec_HLE-106-02-xx-DV-TE_2x06_P2.54mm_Horizontal"
 			(at 207.01 138.43 0)
 			(effects
 				(font
@@ -21345,7 +21345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Samtec_HLE_THT:Samtec_HLE-106-02-xx-DV-TE_2x06_P2.54mm_Horizontal"
 			(at 271.78 100.33 0)
 			(effects
 				(font
@@ -24250,7 +24250,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 138.43 87.63 0)
 			(effects
 				(font
@@ -26150,7 +26150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Samtec_HLE_THT:Samtec_HLE-106-02-xx-DV-TE_2x06_P2.54mm_Horizontal"
 			(at 207.01 105.41 0)
 			(effects
 				(font

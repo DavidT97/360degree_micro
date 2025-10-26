@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.4*%
-%TF.CreationDate,2025-10-26T17:47:32+01:00*%
+%TF.CreationDate,2025-10-26T18:47:36+01:00*%
 %TF.ProjectId,esp32_fpga,65737033-325f-4667-9067-612e6b696361,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Paste,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.4) date 2025-10-26 17:47:32*
+G04 Created by KiCad (PCBNEW 9.0.4) date 2025-10-26 18:47:36*
 %MOMM*%
 %LPD*%
 G01*
@@ -62,7 +62,7 @@ X133510000Y-56040000D03*
 %TD*%
 D16*
 %TO.C,C11*%
-X121070000Y-70290000D03*
 X122030000Y-70290000D03*
+X121070000Y-70290000D03*
 %TD*%
 M02*
