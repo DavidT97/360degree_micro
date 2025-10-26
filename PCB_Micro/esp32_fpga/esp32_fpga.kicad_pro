@@ -58,7 +58,44 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "solder_mask_bridge|125357500|52020000|37ee8f48-897f-47f2-83ef-7c657c1b8b40|c3fb333e-3cf8-4881-89ac-0ac0aa47e4a5",
+          ""
+        ],
+        [
+          "solder_mask_bridge|131501250|70943750|66caac88-4129-4789-b98a-c6c4db9ff1ad|6c8da626-1073-494f-b0e9-02dd73142fa9",
+          ""
+        ],
+        [
+          "solder_mask_bridge|131501250|71593750|6c8da626-1073-494f-b0e9-02dd73142fa9|4e03db56-ba3e-4b44-9ce2-82a235a0d577",
+          ""
+        ],
+        [
+          "solder_mask_bridge|131501250|72243750|4e03db56-ba3e-4b44-9ce2-82a235a0d577|e82d50d7-13cb-4282-b794-6007267b35a4",
+          ""
+        ],
+        [
+          "solder_mask_bridge|133441250|71256250|266d0ea5-c01e-4540-887e-53098dfb99ae|d8fbf75e-bec7-46e0-8979-99de70706077",
+          ""
+        ],
+        [
+          "solder_mask_bridge|133441250|71906250|84126ac0-95fc-4d67-8ebc-6dc2f474db2d|266d0ea5-c01e-4540-887e-53098dfb99ae",
+          ""
+        ],
+        [
+          "solder_mask_bridge|133441250|72556250|9ba9c355-7067-4565-b282-a9b6a7993412|84126ac0-95fc-4d67-8ebc-6dc2f474db2d",
+          ""
+        ],
+        [
+          "solder_mask_bridge|168428524|121100000|74aa9ccf-b246-429b-bd44-21bdb71f23b3|47270461-595b-451e-94cb-23cef199bd17",
+          ""
+        ],
+        [
+          "solder_mask_bridge|87640000|119212500|69215b7a-4e66-4faa-b857-ea7e6ba3d0d6|219e69a3-b46f-4a0a-8ea2-d1815842e7c0",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -526,7 +563,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "plots/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

@@ -11586,6 +11586,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 53.34) (xy 25.4 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ca19332-47e6-4e07-9607-96a604416496")
+	)
+	(wire
+		(pts
 			(xy 162.56 127) (xy 163.83 127)
 		)
 		(stroke
@@ -12473,6 +12483,16 @@
 			(type default)
 		)
 		(uuid "5992fc17-1ed2-401b-b2fe-474304992a70")
+	)
+	(wire
+		(pts
+			(xy 25.4 67.31) (xy 25.4 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ab9e4d-cdf1-4646-955a-db6f349d3b20")
 	)
 	(wire
 		(pts
@@ -16163,6 +16183,16 @@
 			(justify right bottom)
 		)
 		(uuid "362df8db-4fc4-44c1-a407-6b862ef89566")
+	)
+	(label "GPIO0"
+		(at 25.4 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37533bea-365a-4e33-98c9-7ecc5c7bd620")
 	)
 	(label "PIN_P48"
 		(at 201.93 72.39 180)
@@ -20229,6 +20259,71 @@
 			(project ""
 				(path "/e9b45eef-13aa-420c-803d-e39bf82057f5"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 72.39 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2acfd59d-6f3f-4a4a-93b1-4a95f58d7a29")
+		(property "Reference" "#PWR014"
+			(at 25.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.273 76.7842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eddefa69-69fe-4555-b431-c7c0321f167e")
+		)
+		(instances
+			(project "esp32_fpga"
+				(path "/e9b45eef-13aa-420c-803d-e39bf82057f5"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -28422,6 +28517,74 @@
 			(project ""
 				(path "/e9b45eef-13aa-420c-803d-e39bf82057f5"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 25.4 62.23 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7c1b3a4-4007-4504-ad73-c1499c524594")
+		(property "Reference" "SW2"
+			(at 20.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 20.4724 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
+			(at 20.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb067fc1-8745-4a56-80fd-4651c0e9352b")
+		)
+		(pin "2"
+			(uuid "92e2eb68-9d30-4bb1-abf8-c8f697207034")
+		)
+		(instances
+			(project "esp32_fpga"
+				(path "/e9b45eef-13aa-420c-803d-e39bf82057f5"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
